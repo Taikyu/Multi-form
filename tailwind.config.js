@@ -13,10 +13,6 @@ export default {
       semiBold: "600",
     },
     extend: {
-      backgroundImage: {
-        sideBackground: "url(assets/images/bg-sidebar-desktop.svg)",
-        mobileBackground: "url(assets/images/bg-sidebar-mobile.svg)",
-      },
       colors: {
         purplishBlue: "hsl(243, 100%, 62%)",
         marineBlue: "hsl(213, 96%, 18%)",
