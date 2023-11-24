@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-import desktop from "./src/assets/images/bg-sidebar-desktop.svg";
-import mobile from "./src/assets/images/bg-sidebar-mobile.svg";
+
 
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -15,8 +14,8 @@ export default {
     },
     extend: {
       backgroundImage: {
-        sideBackground: desktop,
-        mobileBackground: mobile,
+        sideBackground: "url(assets/images/bg-sidebar-desktop.svg)",
+        mobileBackground: "url(assets/images/bg-sidebar-mobile.svg)",
       },
       colors: {
         purplishBlue: "hsl(243, 100%, 62%)",
