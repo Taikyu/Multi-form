@@ -8,3 +8,18 @@
     src: url("./assets/fonts/Ubuntu-Regular.ttf");
   }
 }
+
+
+#side-bar {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(assets/images/bg-sidebar-desktop.svg);
+}
+
+@media (max-width: 520px) {
+  #side-bar {
+    background-size: cover;
+    background-image: url(assets/images/bg-sidebar-mobile.svg);
+  }
+}
