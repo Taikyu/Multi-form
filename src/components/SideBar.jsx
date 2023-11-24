@@ -11,7 +11,7 @@ const activeClasses =
 const SideBar = () => {
   const { user } = useContext(userContext);
   return (
-    <Card className="fixed top-0 w-full h-32 flex gap-8 items-start pt-8 justify-center rounded-none bg-cover bg-mobileBackground  text-magnolia sm:relative sm:h-[30rem] sm:w-56 sm:mt-3 sm:ml-4 sm:flex-col sm:bg-sideBackground sm:bg-cover sm:justify-start sm:pt-8 sm:pl-8 sm:gap-3">
+    <Card id="side-bar" className="fixed top-0 w-full h-32 flex gap-8 items-start pt-8 justify-center rounded-none bg-cover bg-mobileBackground  text-magnolia sm:relative sm:h-[30rem] sm:w-56 sm:mt-3 sm:ml-4 sm:flex-col sm:bg-sideBackground sm:bg-cover sm:justify-start sm:pt-8 sm:pl-8 sm:gap-3">
       <div className="flex gap-6 items-center cursor-pointer">
         <strong className={user.pageNumber === 1 ? activeClasses : classes}>
           1
